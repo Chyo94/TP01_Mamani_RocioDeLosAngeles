@@ -30,7 +30,7 @@ void mouseMoved() {
     Link.x = mouseX;
     Link.y = mouseY;
   
- // println(mouseX);
+ 
   if(mouseX + mouseY == Cofre.x + Cofre.y){
     green = 0;
      text("Clear",Cofre.x,Cofre.y);
